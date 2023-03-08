@@ -3,12 +3,13 @@ package ByteBakEncapsulado;
 public class TestaGetSet {
     public static void main(String[] args) {
 
-        Conta conta =  new Conta();
+        Cliente cliente = new Cliente();
+        Conta conta =  new Conta(500,012,12358,cliente);
+
         conta.setNumero(1337);
 
         System.out.println(conta.getNumero());
 
-        Cliente cliente = new Cliente();
         conta.setTitular(cliente);
 
         cliente.setNome("Mizael");
