@@ -1,3 +1,5 @@
+package ByteBank;
+
 import java.util.Scanner;
 
 public class CriaConta {
